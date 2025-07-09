@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "bear_socket_io",
+	"version": "1.0",
+	"description": "bear_socket_io",
+	"action": {
+	"default_popup": "popup.html"
+	},
+	"content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+			"js": ["content_script.js"]
+		}
+	]
+}
